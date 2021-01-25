@@ -1,10 +1,10 @@
 # automata-example
-Deterministik Sonlu Makine örneği. 
+###### Deterministic Finite Automata example coding with CSharp. 
 
-# DFA Nedir?
+# What is DFA?
 
->Sonlu otomatların özel bir halidir. Bu özel hal aşağıdaki 3 durumu içermelidir:
+###### A special type of finite automata. This state must following three conditions:
 
->Her durumdan (State) gidilecek koşulun tek bir durum göstermesi. Yani bir durumda başka duruma geçerken bir kelime ile sadece bir duruma gidilebilmesi
->Herhangi bir girdi için, tek bitiş durumunun (final state) kabul edilmesi (birden fazla bitiş durumunun aynı anda kabul edilmemesi)
->Lambda (veya epsilon) kelimesinin durumlar arası geçişte yer almaması
+>The condition to go from each state must show a single state.
+>There is only one final state that must be accepted for any input.
+>Lambda word must not be included in the conditions.
